@@ -20,7 +20,7 @@ ui_print ""
 sleep 0.2
 ui_print " 1. One plus Graphis PUBG"
 sleep 0.2
-ui_print " 2. Mi 10 Pro Graphis Mobile legends"
+ui_print " 2. Mi 10T Pro Graphis Mobile legends"
 sleep 0.2
 ui_print " 3. Sony Xperia COD MOBILE "
 sleep 0.2
@@ -34,6 +34,19 @@ ui_print " 7. Samsung Galaxy A70 "
 sleep 0.2 
 ui_print " 8. Realme C17 "
 sleep 0.2
+ui_print " 9. Xiaomi Redmi Note 9 "
+sleep 0.2
+ui_print " 10. Xiaomi Poco X3 Pro "
+sleep 0.2
+ui_print " 11. Xiaomi Black Shark 3 Pro "
+sleep 0.2
+ui_print " 12. Lenovo Z6 Pro "
+sleep 0.2
+ui_print " 13. Oppo Reno5 F "
+sleep 0.2
+ui_print " 14. Infinix Hot 10 "
+sleep 0.2
+ui_print " 15. Xiaomi Mi 10 Ultra "
 ui_print " "
 sleep 0.2
 ui_print " Select Unlocker: "
@@ -45,7 +58,7 @@ while true; do
 	else 
 		break
 	fi
-	if [ $GU -gt 8 ]; then
+	if [ $GU -gt 15 ]; then
 		GU=1
 	fi
 done
@@ -59,8 +72,15 @@ case $GU in
  6 ) TEXT7="Model hardware iphone 12 "; FCTEXT="Model hardware iphone 12"; sed -i '/ro.product.model/s/.*/ro.product.model=A2172/' $MODPATH/system.prop; sed -i '/ro.product.odm.model/s/.*/ro.product.odm.model=A2172/' $MODPATH/system.prop; sed -i '/ro.product.system.model/s/.*/ro.product.system.model=A2172/' $MODPATH/system.prop; sed -i '/ro.product.vendor.model/s/.*/ro.product.vendor.model=A2172/' $MODPATH/system.prop; sed -i '/ro.product.system_ext.model/s/.*/ro.product.system_ext.model=A2172/' $MODPATH/system.prop;;
  7 ) TEXT8="Model hardware Samsung Galaxy A70 "; FCTEXT="Model hardware Samsung Galaxy A70"; sed -i '/ro.product.model/s/.*/ro.product.model=SM-A705F/' $MODPATH/system.prop; sed -i '/ro.product.odm.model/s/.*/ro.product.odm.model=SM-A705F/' $MODPATH/system.prop; sed -i '/ro.product.system.model/s/.*/ro.product.system.model=SM-A705F/' $MODPATH/system.prop; sed -i '/ro.product.vendor.model/s/.*/ro.product.vendor.model=SM-A705F/' $MODPATH/system.prop; sed -i '/ro.product.system_ext.model/s/.*/ro.product.system_ext.model=SM-A705F/' $MODPATH/system.prop;;
   8 ) TEXT9="Model hardware Realme C17 "; FCTEXT="Model hardware Realme C17"; sed -i '/ro.product.model/s/.*/ro.product.model=RMX2101/' $MODPATH/system.prop; sed -i '/ro.product.odm.model/s/.*/ro.product.odm.model=RMX2101/' $MODPATH/system.prop; sed -i '/ro.product.system.model/s/.*/ro.product.system.model=RMX2101/' $MODPATH/system.prop; sed -i '/ro.product.vendor.model/s/.*/ro.product.vendor.model=RMX2101/' $MODPATH/system.prop; sed -i '/ro.product.system_ext.model/s/.*/ro.product.system_ext.model=RMX2101/' $MODPATH/system.prop;;
+  9 ) TEXT10="Model hardware Xiaomi Redmi Note 9 "; FCTEXT="Model hardware Xiaomi Redmi Note 9"; sed -i '/ro.product.model/s/.*/ro.product.model=M2003J15SC/' $MODPATH/system.prop; sed -i '/ro.product.odm.model/s/.*/ro.product.odm.model=M2003J15SC/' $MODPATH/system.prop; sed -i '/ro.product.system.model/s/.*/ro.product.system.model=M2003J15SC/' $MODPATH/system.prop; sed -i '/ro.product.vendor.model/s/.*/ro.product.vendor.model=M2003J15SC/' $MODPATH/system.prop; sed -i '/ro.product.system_ext.model/s/.*/ro.product.system_ext.model=M2003J15SC/' $MODPATH/system.prop;;
+  10 ) TEXT11="Model hardware Xiaomi Poco X3 Pro "; FCTEXT="Model hardware Xiaomi Poco X3 Pro"; sed -i '/ro.product.model/s/.*/ro.product.model=M2102J20SG/' $MODPATH/system.prop; sed -i '/ro.product.odm.model/s/.*/ro.product.odm.model=M2102J20SG/' $MODPATH/system.prop; sed -i '/ro.product.system.model/s/.*/ro.product.system.model=M2102J20SG/' $MODPATH/system.prop; sed -i '/ro.product.vendor.model/s/.*/ro.product.vendor.model=M2102J20SG/' $MODPATH/system.prop; sed -i '/ro.product.system_ext.model/s/.*/ro.product.system_ext.model=M2102J20SG/' $MODPATH/system.prop;;
+  11 ) TEXT12="Model hardware Xiaomi Black Shark 3 Pro"; FCTEXT="Model hardware Xiaomi Black Shark 3 Pro"; sed -i '/ro.product.model/s/.*/ro.product.model=SHARK MBU-A0/' $MODPATH/system.prop; sed -i '/ro.product.odm.model/s/.*/ro.product.odm.model=SHARK MBU-A0/' $MODPATH/system.prop; sed -i '/ro.product.system.model/s/.*/ro.product.system.model=SHARK MBU-A0/' $MODPATH/system.prop; sed -i '/ro.product.vendor.model/s/.*/ro.product.vendor.model=SHARK MBU-A0/' $MODPATH/system.prop; sed -i '/ro.product.system_ext.model/s/.*/ro.product.system_ext.model=SHARK MBU-A0/' $MODPATH/system.prop;;
+  12 ) TEXT13="Model hardware Lenovo Z6 Pro"; FCTEXT="Model hardware Lenovo Z6 Pro"; sed -i '/ro.product.model/s/.*/ro.product.model=L78051/' $MODPATH/system.prop; sed -i '/ro.product.odm.model/s/.*/ro.product.odm.model=L78051/' $MODPATH/system.prop; sed -i '/ro.product.system.model/s/.*/ro.product.system.model=L78051/' $MODPATH/system.prop; sed -i '/ro.product.vendor.model/s/.*/ro.product.vendor.model=L78051/' $MODPATH/system.prop; sed -i '/ro.product.system_ext.model/s/.*/ro.product.system_ext.model=L78051/' $MODPATH/system.prop;;
+  13 ) TEXT14="Model hardware Oppo Reno5 F"; FCTEXT="Model hardware Oppo Reno5 F"; sed -i '/ro.product.model/s/.*/ro.product.model=CPH2217/' $MODPATH/system.prop; sed -i '/ro.product.odm.model/s/.*/ro.product.odm.model=CPH2217/' $MODPATH/system.prop; sed -i '/ro.product.system.model/s/.*/ro.product.system.model=CPH2217/' $MODPATH/system.prop; sed -i '/ro.product.vendor.model/s/.*/ro.product.vendor.model=CPH2217/' $MODPATH/system.prop; sed -i '/ro.product.system_ext.model/s/.*/ro.product.system_ext.model=CPH2217/' $MODPATH/system.prop;;
+  14 ) TEXT15="Model hardware Infinix Hot 10"; FCTEXT="Model hardware Infinix Hot 10"; sed -i '/ro.product.model/s/.*/ro.product.model=X682B/' $MODPATH/system.prop; sed -i '/ro.product.odm.model/s/.*/ro.product.odm.model=X682B/' $MODPATH/system.prop; sed -i '/ro.product.system.model/s/.*/ro.product.system.model=X682B/' $MODPATH/system.prop; sed -i '/ro.product.vendor.model/s/.*/ro.product.vendor.model=X682B/' $MODPATH/system.prop; sed -i '/ro.product.system_ext.model/s/.*/ro.product.system_ext.model=X682B/' $MODPATH/system.prop;;
+  15 ) TEXT16="Model hardware Xiaomi Mi 10 Ultra"; FCTEXT="Model hardware Xiaomi Mi 10 Ultra"; sed -i '/ro.product.model/s/.*/ro.product.model=M2007J1SC/' $MODPATH/system.prop; sed -i '/ro.product.odm.model/s/.*/ro.product.odm.model=M2007J1SC/' $MODPATH/system.prop; sed -i '/ro.product.system.model/s/.*/ro.product.system.model=M2007J1SC/' $MODPATH/system.prop; sed -i '/ro.product.vendor.model/s/.*/ro.product.vendor.model=M2007J1SC/' $MODPATH/system.prop; sed -i '/ro.product.system_ext.model/s/.*/ro.product.system_ext.model=M2007J1SC/' $MODPATH/system.prop;;
 esac
 ui_print ""
 ui_print "- MODE: $FCTEXT "
 ui_print ""
-sed -i "/description=/c description=${TEXT1}${TEXT2}${TEXT3}${TEXT4}${TEXT5}${TEXT6}${TEXT7}${TEXT8}" $MODPATH/module.prop;
+sed -i "/description=/c description=${TEXT1}${TEXT2}${TEXT3}${TEXT4}${TEXT5}${TEXT6}${TEXT7}${TEXT8}${TEXT9}${TEXT10}${TEXT11}${TEXT12}${TEXT13}${TEXT14}${TEXT15}${TEXT16}" $MODPATH/module.prop;
