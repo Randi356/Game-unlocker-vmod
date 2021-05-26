@@ -26,5 +26,5 @@
 
 # TELEGRAM
 
-http://t.me/anonymous_cyberhack1
+http://t.me/Randi356_Github
 
