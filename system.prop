@@ -3,5 +3,7 @@ ro.product.odm.model
 ro.product.system.model
 ro.product.vendor.model
 ro.product.system_ext.model
+ro.media.enc.jpeg.quality=100
 persist.speedup.enable=1
+
 
